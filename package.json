@@ -1,0 +1,44 @@
+{
+  "name": "githubSearch",
+  "version": "1.0.0",
+  "description": "This projects uses React and Redux to access information from Github's API",
+  "main": "Index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaolivei/githubSearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beaolivei/githubSearch/issues"
+  },
+  "homepage": "https://github.com/beaolivei/githubSearch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.22.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.4",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@material-ui/core": "^4.9.9",
+    "evergreen-ui": "^4.24.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "webpack-cli": "^3.3.11"
+  }
+}
